@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        i{
+            color: darkgrey;
+            padding: 20px; 
+            border-radius: 100%;
+        }
+    </style>
+
+</head>
+
+<body class="bg-secondary">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- brand(a) -->
+            <a href="" class="navbar-brand">Mercedez Benz</a>
+
+            <!-- toggler- button -->
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- navbar-nav(navigation) -->
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Home</a>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ">About</a>
+
+                    </li>
+
+                    
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link "><i class="fa fa-shopping-cart"> <span class="badge-bg-danger"></span></i></a>
+                    </li>
+
+
+                    
+
+                    <!-- dropdown -->
+                    <li class="nav-item dropdown">
+                        <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown" id="dropdown">Products
+                        </a>
+
+                        <ul class="dropdown-menu" id="dropdown">
+                            <li> <a href="" class="dropdown-item">School Bags</a></li>
+                            <li>
+                                <hr class="droppown divider">
+                            </li>
+                            <li> <a href="" class="dropdown-item">Laptop Bags</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+
+                            <li> <a href="" class="dropdown-item">PlayStation Bags</a></li>
+                        </ul>
+
+                    </li>
+
+
+                    <!-- disabled -->
+                    <li class="nav-item">
+                        <a href="" class="nav-link disabled">Delivaries</a>
+
+                    </li>
+
+                </ul>
+
+                <div class="d-flex">
+                    <input type="search" placeholder="Search here" class="form-control me-2">
+                    <button class="btn btn-success"> <i class="fa fa-search"></i> </button>
+                </div>
+
+                <!-- user info -->
+                <li class="nav-item dropdown">
+                    <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown" id="dropdown">
+                        <img src="images/team2.png" alt="image" width="60" height="60"> NewGene
+                    </a>
+
+                    <ul class="dropdown-menu" id="dropdown">
+                        <li> <a href="#" class="dropdown-item">Logout</a></li>
+                        <li>
+                            <hr class="droppown divider">
+                        </li>
+                        <li> <a href="#" class="dropdown-item">Profile</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li> <a href="#" class="dropdown-item">Register</a></li>
+                        <li>
+                            <hr class="droppown divider">
+                        </li>
+                        <li> <a href="#" class="dropdown-item">Login</a></li>
+                    </ul>
+
+                </li>
+
+            </div>
+
+        </div>
+    </nav>
+    <!-- navbar ends -->
+
+   
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+/* body{ */
+    /* background-color: blanchedalmond; */
+/* } */
+img{
+    
+
+    width: 100%;
+    position: relative;
+    height: 250px;
+}
+body{
+    background-image: url(Images/theme.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    color: blue;
+}
+.B_section{
+    color: green;
+}
+.A_section{
+    text-align: center;
+    color: blueviolet;
+    height: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.Awards_section{
+    background-color: rgb(60, 201, 201);
+    padding: 30px;
+    line-height: 30px;
+    color: green;
+    font-size: 20px;
+}
+.statementA{
+    color: red;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    font-weight: 30px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+/* transition */
+.heading1{
+    color: blue;
+    background-color: aqua;
+    padding: 20px;
+    transition: 4s;
+}
+.heading1:hover{
+    background-color: green;
+    color: black;
+}
+.paragraph1{
+    background-color: rgb(34, 9, 58);
+    color: white;
+    transition: 3s;
+}
+.paragraph1:hover{
+    padding: 20px;
+}
+.btn1{
+    margin-left: 40px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    transition: 3s;
+}
+.btn1:hover{
+    transform: scaleY(1.5);
+    font-size: 25px;
+}
+.section1{
+    width: 60%;
+    text-align: center;
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+    transition: 4s;
+}
+.section1:hover{
+    padding: 30px;
+    transition-delay: 2s;
+}
+
+/* Animation */
+@keyframes car{
+    /* start point */
+     from {left:0;}
+     /* end point */
+     to {left: 60%;}
+}
+.object{
+    height: 300px;
+    background-image: url(Images/Car.jpg);
+    width: 400px;
+    margin: 20px;
+    position: relative;
+    background-size: cover;
+
+    animation-name: car;
+    animation-duration: 3s;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+}
+
+/* transform */
+.img2{
+   width: 50%;
+   margin-top: 40px;
+   margin-left: 40px;
+   transition: 3s;
+}
+.img2:hover{
+    transform: rotate(-30deg);
+}
+.img3{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 40px;
+    transition: 3s; 
+}
+.img3:hover{
+    transform: skew(-40deg);
+}
+
+
+/* Animation Assignment */
+@keyframes car2{
+0%{
+    left: 0px;
+    top: 0px;
+}
+
+25%{
+    left: 60%;
+    top: 0px;
+}
+
+50%{
+    left: 60%;
+    top: 300px;
+}
+
+75%{
+    left: 0px;
+    top: 300px;
+}
+
+100%{
+    left: 0px;
+    top: 0px;
+}
+
+}
+.object2{
+    height: 300px;
+    background-image: url(Images/Car.jpg);
+    width: 400px;
+    margin: 20px;
+    position: relative;
+    background-size: cover;
+
+    animation-name: car2;
+    animation-duration: 6s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+}

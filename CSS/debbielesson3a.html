@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+
+    <style>
+        .object1 {
+            background-image: url(images/theme.avif);
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            margin-top: 200px;
+            margin-left: 300px;
+            transition: 2s ease;
+        }
+
+        /* .object1:hover {
+            transform: scale(1.5);
+        } */
+
+        /* .object1:hover {
+            transform: rotate(-30deg);
+        } */
+
+        .object1:hover {
+            transform: skew(-30deg);
+        }
+    </style>
+</head>
+
+
+<body>
+    <!-- Transformations, Transitions, Animations -->
+    <!-- Transformation: Changing an object dimentions -->
+    <!-- scale,rotations,shearing ,matrix(combination -w3schools)-->
+    <!-- rotation: positive degree(clockwise),negative(anti-clockwise) -->
+    <!-- skew(shear):when object dimentions are streched -->
+    <div class="object1"></div>
+    <img src="images/car2.jpg" alt="car">
+
+</body>
+
+</html>
